@@ -1,5 +1,5 @@
 #Script for performing 1 sample MR with individual level data, where the outcome variable is binary
-#MR method = two-stage predictor substitution. FOr more information see Bugress et al, 2015 (pmid:25773750)
+#MR method = two-stage predictor substitution. For more information see Bugress et al, 2015 (pmid:25773750)
 #Modified from Tom Palmer
 
 #********************************************************************************************
