@@ -89,7 +89,7 @@ for (i in 1:n_snps) {
 
 #to perform MR with individual SNPs
   g <- eval(parse(text=paste0("fam_snps$", snps[i]))) 
-  res <- delta(x=x, y=y, g=g)
+  res <- delta(x=x, y=y, u=u, g=g)
   
   # check estimate within CI limits
   if (((res$or < res$upp) & (res$or > res$low)) == FALSE) {
